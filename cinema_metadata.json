@@ -1,0 +1,82 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "cinema.csv",
+    "tableSchema": {
+        "columns": [{
+            "name": "cinema_id",
+            "titles": {
+                "en": "cinema_id"
+            },
+            "dc:description": {
+                "en": "the identification number for cinema."
+            },
+            "datatype": "integer",
+            "required": true
+        },{
+            "name":"cinema_name",
+            "titles": {
+                "en": "cinema_name"
+            },
+            "dc:description": "The unique name of the cinema.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"cinema_address",
+            "titles": {
+                "en": "cinema_address"
+            },
+            "dc:description": "The address name of the cinema.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"ticket_price",
+            "titles": {
+                "en": "ticket_price"
+            },
+            "dc:description": "The price name of the ticket.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"movie_name",
+            "titles": {
+                "en": "movie_name"
+            },
+            "dc:description": "The movie name.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"schedule_time",
+            "titles": {
+                "en": "schedule_time"
+            },
+            "dc:description": "The schedule for the movie and the salon.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"schedule_date",
+            "titles": {
+                "en": "schedule_date"
+            },
+            "dc:description": "The schedule for the movie and the salon.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"salon_condition",
+            "titles": {
+                "en": "salon_condition"
+            },
+            "dc:description": "The salon condition.",
+            "datatype": "string",
+            "required": true
+        },{
+            "name":"salon_number",
+            "titles": {
+                "en": "salon_number"
+            },
+            "dc:description": "The salon number of the cinema.",
+            "datatype": "string",
+            "required": true
+        }]
+        
+    }
+}
