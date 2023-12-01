@@ -1,1 +1,6 @@
-﻿cinema_id,cinema_name,cinema_address,ticket_price,movie_name,schedule_time,schedule_date,salon_condition,salon_number
+cinema_id;cinema_name;cinema_address;ticket_price;movie_name;schedule_time;schedule_date;salon_condition;salon_number
+1;Cineplex;Passau;12;Casablanca;20:00;Saturday;acoustic;1
+1;Cineplex;Passau;12;Casablanca;22:00;Saturday;acqustic;1
+1;Cineplex;Passau;12;Pscyco;20:00;Sunday;Normal;2
+2;People;Munich;13;Casablanca;21:00;Saturday;acqustic;5
+3;CityPark;Munich;13;Love Story;18:00;Sunday;Normal;3
