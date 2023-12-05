@@ -1,0 +1,76 @@
+{
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "https://my-public-url/airport.schema.json",
+        "title": "Cinema",
+        "description": "Programs of all Cinemas in Germany",
+        "type": "array",
+        "items" : 
+        {
+            "type": "object",
+        	"properties": 
+            {
+            "Id" : 
+            {
+                "type": "integer"
+            },
+            "Name": 
+            {
+                "type": "string"
+            },
+            "Address": 
+            {
+                "type": "string"
+            },
+            "Ticket Price":
+            {
+            	"type": "string"
+            },
+            "Salons": 
+            {
+                "type": "array",
+                "items": 
+                {
+                    "type": "object",
+                    "properties": 
+                    {
+                        "Number": 
+                        {
+                              "type": "string"
+                        },
+                        "Condition": 
+                        {
+                              "type": "string"
+                        },
+                        "Schedule": 
+                        {
+                            "type": "array",
+                            "items": 
+                            {
+                            "type": "object",
+                            "properties": 
+                            {
+                              "Date": 
+                              {
+                               "type": "string"
+                              },
+                                
+                              "Time": 
+                              {
+                              "type": "string"
+                              },
+                                
+                              "Movie_Name": 
+                              {
+                               "type": "string"
+                              }
+                            }
+                            }
+                        }
+                    }
+                    }
+                }
+            }
+            },
+            "required" : ["id"]
+        }
+    

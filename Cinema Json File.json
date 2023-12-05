@@ -1,0 +1,76 @@
+[
+    {
+        "Id" : 1,
+        "Name" : "Cineplex",
+        "Address" : "Passau",
+      	"Ticket Price": "12",
+        "Salons" : [
+            {
+            "Number" : "1",
+            "Condition" : "acoustic" ,
+            "Schedule" : [
+                {
+                    "Date" : "Saturday",
+                    "Time" : "20:00",
+                    "Movie_Name" : "Casablanca"
+                },
+                {
+                    "Date" : "Saturday",
+                    "Time" : "22:00",
+                    "Movie_Name" : "Casablanca"
+                }
+              			]
+            }, 
+          {
+          	"Number" : "2",
+          	"Condition" : "Normal" ,
+            "Schedule" : [
+              	{
+                    "Date" : "Sunday",
+                    "Time" : "20:00",
+                    "Movie_Name" : "Psyco"
+          }
+                ]
+            }
+        ]         
+    }  ,
+  {
+        "Id" : 2,
+        "Name" : "People",
+        "Address" : "Munich",
+    	"Ticket Price": "13",
+        "Salons" : [
+            {
+            "Number" : "5",
+            "Condition" : "acoustic" ,
+            "Schedule" : [
+                {
+                    "Date" : "Saturday",
+                    "Time" : "21:00",
+                    "Movie_Name" : "Casablanca"
+                }
+                ]
+            }
+        ]         
+    }  ,
+  {
+        "Id" : 3,
+        "Name" : "CityPark",
+        "Address" : "Munich",
+    	"Ticket Price": "13",
+        "Salons" : [
+            {
+            "Number" : "5",
+            "Condition" : "Normal" ,
+            "Schedule" : [
+                {
+                    "Date" : "Sunday",
+                    "Time" : "18:00",
+                    "Movie_Name" : "Love Story"
+                }
+                ]
+            }
+        ]         
+    }  
+    
+]
